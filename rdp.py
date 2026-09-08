@@ -164,7 +164,7 @@ def stage_bundle(source: Path, target: Path) -> dict[str, Any]:
         shutil.copytree(target / 'skills', target / agent / 'skills')
     instructions = '# RDP employee starter\n\nRead START_HERE.md and WORKFLOW.md. For “חבר אותי לפרויקט של RDP”, load skills/rdp-onboarding/SKILL.md. This directory is a distribution, not the customer project. Never create customer code here.\n'
     for name in ['AGENTS.md', 'CLAUDE.md', 'CODEX.md']:
-        (target / name).write_text(instructions, encoding='utf-8')
+        (target / name).write_text(instructions, encoding='utf-8', newline='\n')
     return seal(target)
 
 
@@ -315,6 +315,12 @@ def install(bundle: Path, project: Path, *, priority: bool = False, change_versi
         if pattern not in ignore.splitlines():
             ignore = ignore.rstrip('\n') + '\n' + pattern + '\n'
     changes['.gitignore'] = ignore.encode('utf-8')
+    attributes_path = safe_path(project, '.gitattributes')
+    attributes = attributes_path.read_text(encoding='utf-8') if attributes_path.exists() else ''
+    for rule in ['.rdp/** -text', '.agents/skills/rdp-*/** -text', '.claude/skills/rdp-*/** -text']:
+        if rule not in attributes.splitlines():
+            attributes = attributes.rstrip('\n') + '\n' + rule + '\n'
+    changes['.gitattributes'] = attributes.encode('utf-8')
     new_state = {'schemaVersion': 1, 'version': version, 'priority': priority, 'bundleSha256': digest((bundle / 'bundle.json').read_bytes()), 'skills': names, 'managed': {n: digest(b) for n, b in desired.items()}}
     changes[STATE] = dumps(new_state)
     apply_files(project, changes)

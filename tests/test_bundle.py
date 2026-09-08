@@ -11,6 +11,7 @@ from unittest.mock import patch
 import rdp
 
 ROOT = Path(__file__).resolve().parents[1]
+BUNDLE_VERSION = (ROOT / 'VERSION').read_text().strip()
 
 
 class BundleTests(unittest.TestCase):
@@ -97,7 +98,7 @@ class BundleTests(unittest.TestCase):
         rdp.install(newer, self.project, change_version=True)
         self.assertEqual(rdp.load_manifest(self.project)['bundle_version'], '1.1.0')
         self.install(change_version=True)
-        self.assertEqual(rdp.load_manifest(self.project)['bundle_version'], '1.0.0')
+        self.assertEqual(rdp.load_manifest(self.project)['bundle_version'], BUNDLE_VERSION)
         self.assertTrue((self.project / '.rdp/bundles/1.1.0').is_dir())
 
     def test_locally_edited_managed_file_blocks_update(self):
