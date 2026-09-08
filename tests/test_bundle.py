@@ -201,7 +201,9 @@ class BundleTests(unittest.TestCase):
         self.git('add', '.')
         self.git('commit', '-m', 'Install bundle fixture')
         checkout = self.root / 'windows-style-checkout'
-        subprocess.run(['git', '-c', 'core.autocrlf=true', 'clone', '--quiet', str(self.project), str(checkout)], check=True, capture_output=True)
+        # Copy through Git's transport, avoiding runner-specific local hardlink optimizations.
+        cloned = subprocess.run(['git', '-c', 'core.autocrlf=true', 'clone', '--no-local', '--quiet', str(self.project), str(checkout)], capture_output=True, text=True)
+        self.assertEqual(cloned.returncode, 0, cloned.stderr)
         state = json.loads((checkout / '.rdp/bundle-state.json').read_text())
         for name, checksum in state['managed'].items():
             self.assertEqual(rdp.digest((checkout / name).read_bytes()), checksum, name)
