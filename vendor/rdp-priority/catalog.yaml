@@ -1,0 +1,18 @@
+schema_version: 1
+name: rdp-priority
+version: 1.0.0
+channel: stable
+source: https://github.com/rdp-team/rdp-priority-ai-skill
+knowledge_states:
+  - OBSERVED
+  - PROPOSED
+  - REPRODUCED
+  - VALIDATED
+  - CANDIDATE
+  - STABLE
+  - DEPRECATED
+compatibility:
+  claude_code: supported
+  codex: supported
+  cursor: adapter-foundation
+  github_copilot: adapter-foundation

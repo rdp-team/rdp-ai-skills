@@ -1,0 +1,9 @@
+# Changelog
+
+## 1.0.0 — release candidate
+
+- Ten focused shared RDP skills for onboarding through PR, handoff and organizational learning.
+- Project-local Claude Code/Codex discovery, version locks, deterministic employee ZIP.
+- GitHub access checks, private project creation/clone, safe installation, update and rollback.
+- Optional unmodified Priority v1.0.0; existing Priority locks are retained.
+- Stable publication and merge remain pending authorized review.

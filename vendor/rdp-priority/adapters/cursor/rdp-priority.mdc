@@ -1,0 +1,9 @@
+---
+description: RDP Priority project workflow
+alwaysApply: true
+---
+
+Canonical source: https://github.com/rdp-team/rdp-priority-ai-skill
+Skill version: 1.0.0
+
+Follow the project-local locked Skill. Require discovery, approved plan, verification and handoff.
