@@ -74,7 +74,10 @@ gh repo view rdp-team/rdp-ai-skills
 ```text
 gh repo clone rdp-team/rdp-ai-skills
 cd rdp-ai-skills
+git switch codex/rdp-employee-skills
 ```
+
+פקודת `git switch` נדרשת כל עוד גרסת ההפצה נמצאת בבדיקת Pull Request. לאחר אישור ומיזוג הגרסה, המאגר ייפתח ישירות בגרסה המאושרת ללא הפקודה הנוספת.
 
 אם מתקבלת הודעת `not found` או `permission denied`, יש לוודא שההזמנה לארגון אושרה ושהחשבון הפעיל ב־`gh auth status` הוא החשבון הנכון.
 
