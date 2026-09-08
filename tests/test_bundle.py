@@ -196,6 +196,16 @@ class BundleTests(unittest.TestCase):
         result = rdp.verify_project(self.project)
         self.assertTrue(any('lock differs' in item for item in result['errors']))
 
+    def test_git_windows_line_endings_preserve_installed_checksums(self):
+        self.install(priority=True)
+        self.git('add', '.')
+        self.git('commit', '-m', 'Install bundle fixture')
+        checkout = self.root / 'windows-style-checkout'
+        subprocess.run(['git', '-c', 'core.autocrlf=true', 'clone', '--quiet', str(self.project), str(checkout)], check=True, capture_output=True)
+        state = json.loads((checkout / '.rdp/bundle-state.json').read_text())
+        for name, checksum in state['managed'].items():
+            self.assertEqual(rdp.digest((checkout / name).read_bytes()), checksum, name)
+
 
 if __name__ == '__main__':
     unittest.main()
