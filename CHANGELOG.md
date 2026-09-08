@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Add an idempotent, dry-run-first administrator tool for regular-member GitHub invitations.
+- Add a complete Hebrew GitHub/Claude Code onboarding guide and a concise employee email template.
+
 ## 1.0.1-rc.1
 
 - Preserve exact managed/upstream bytes across Windows Git checkouts.
