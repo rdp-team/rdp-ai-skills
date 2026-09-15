@@ -1,0 +1,11 @@
+dist/
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+employees*.csv
+invitation-report*.json

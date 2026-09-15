@@ -1,0 +1,6 @@
+interface:
+  display_name: "RDP Priority Development"
+  short_description: "Safe RDP Priority engineering workflow"
+  default_prompt: "Use $rdp-priority to plan and verify this issue-linked Priority change."
+policy:
+  allow_implicit_invocation: true

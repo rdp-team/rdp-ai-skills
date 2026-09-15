@@ -1,0 +1,11 @@
+{
+  "tag": "v1.0.0",
+  "commit": "014a35eca44c668081738eb19a8c7a2ad3bf9bb6",
+  "lockEntry": {
+    "version": "1.0.0",
+    "channel": "stable",
+    "commit": "014a35eca44c668081738eb19a8c7a2ad3bf9bb6",
+    "checksum": "sha256:b865957fac460c5d892502a9cff17a05360bb49a9e9c55a9170e9aad7e6b9b8e",
+    "source": "https://github.com/rdp-team/rdp-priority-ai-skill"
+  }
+}

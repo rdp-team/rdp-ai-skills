@@ -1,0 +1,17 @@
+{
+  "test": "Tool-free CLI skill catalog discovery in the installed pilot project",
+  "results": [
+    {
+      "client": "Codex CLI",
+      "exitCode": 0,
+      "response": "rdp-handoff, rdp-knowledge, rdp-onboarding, rdp-project, rdp-pull-request, rdp-review, rdp-security, rdp-task, rdp-testing, rdp-updates",
+      "structuredResult": true
+    },
+    {
+      "client": "Claude Code",
+      "exitCode": 1,
+      "response": "Failed to authenticate: OAuth session expired and could not be refreshed",
+      "isError": true
+    }
+  ]
+}

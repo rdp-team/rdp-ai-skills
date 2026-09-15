@@ -1,0 +1,216 @@
+{
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "e3356d6993ecd39fac279b513f1eddc446e9018a39c72a6ccaf81a9d24be6637"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d31664e17ce57308209f44eb813b0bbc69c46df46efdb6cee7b0cf7bf341b96c"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "83585d9feb036a4712e417f5105ee8ebf750adf8a3f6a02e322a70cc6b28cfda"
+    },
+    {
+      "path": "VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "adapters/claude/CLAUDE.md",
+      "sha256": "13417e0d5337aed41c08d20070d21776f5312f4326110bccd412b6f4c1781453"
+    },
+    {
+      "path": "adapters/codex/AGENTS.md",
+      "sha256": "95a6942f9226a6550f27705a9af988ffcc6e4be83cd5f379cf7ce2c35d631ff3"
+    },
+    {
+      "path": "adapters/copilot/copilot-instructions.md",
+      "sha256": "3095db05d816918ea22f866bbdf6dc898f2bea13523001a9323248911f0e4bc8"
+    },
+    {
+      "path": "adapters/cursor/rdp-priority.mdc",
+      "sha256": "43878e5eb697c039f2e2301af889b4d8c24cc7281d1b86f165ecc6fed20b8ec7"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "970fd6d3c094210630f29d9a344a1d75666146cbceeecd8272a7c08f07304250"
+    },
+    {
+      "path": "catalog.yaml",
+      "sha256": "b08c946abc4b7bbfd82e16cae367a9bb4471e170ac163de4aa970fe36c1a1629"
+    },
+    {
+      "path": "core/git-workflow.md",
+      "sha256": "72a2509e364ad22ebe048cebc4b41e8c00efb51cc0d132b7c402ef94124ad663"
+    },
+    {
+      "path": "core/learning-policy.md",
+      "sha256": "b39ac8353b1ba28cd4d747dd029f8a3c86a6e82ee40b54938435f870694ebcdd"
+    },
+    {
+      "path": "core/mandatory-rules.md",
+      "sha256": "9767aa7bf1da5ab36a3956e8038adfd37a9c6678261b511dc4dfeda20cf289de"
+    },
+    {
+      "path": "core/release.md",
+      "sha256": "c32935b000273338d68cdd59c74de70f393c9843f170d51f0d5d75dcfc141f3b"
+    },
+    {
+      "path": "core/security.md",
+      "sha256": "98d7ef6bfcb40ad0ff5a75bfb9cc6fdc99b481b037b69838c9b50f965edcd9f9"
+    },
+    {
+      "path": "core/testing.md",
+      "sha256": "e6af79d59d4e7219ea255aa43bbbb4e4fa2abeb5790537cf6a7348105fd6d050"
+    },
+    {
+      "path": "docs/admin-setup.md",
+      "sha256": "2f694b5ffcfdee8f4a8bf24be043df8f9efe2e69d4ae1a69ca20cc6b567e4b42"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "ef192fb6bb21d1a591a7f539eb9e8cba959654b33e8b833fe5e1dd0db703a4fa"
+    },
+    {
+      "path": "docs/backups.md",
+      "sha256": "c8af1a3be7a873c0b3a098e48eab12d14448584b5848cda69d181a6fe51d7289"
+    },
+    {
+      "path": "docs/developer-workflow.md",
+      "sha256": "963233478ff0836c3d1249f5d9a6b2e3c1465cf0f4bd15e7b5f56ce3d6f90e8c"
+    },
+    {
+      "path": "docs/learning-loop.md",
+      "sha256": "5fa29692d71069a28dd7212ef0f63b1d918b6e01fd30ef5f0f1bb1914b5209d7"
+    },
+    {
+      "path": "docs/onboarding.md",
+      "sha256": "7c2415c7a418cb9c66c1702c8e5e28abcdca00998810a8197951232faf4dbfe7"
+    },
+    {
+      "path": "docs/restore-runbook.md",
+      "sha256": "7d4d4a65a407658997fa7013f57876684221056324e4e551fa793a1937a8b28f"
+    },
+    {
+      "path": "docs/security.md",
+      "sha256": "c6707e8459abd7cb62863caff8ff2b641f3ba40956e3d60fe8837c24c7164beb"
+    },
+    {
+      "path": "docs/skill-lifecycle.md",
+      "sha256": "4a769a9d2622f5bcc3345c1208389b3a27c1e8261683d833da367f63d83d9988"
+    },
+    {
+      "path": "docs/troubleshooting.md",
+      "sha256": "d2aab99b60fc068824b8ff8b3c72cc7a0c7b71483f8d27bea91e4e00ac776104"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "60de85422fda17b12958cdfdb7fe3e75e9a02c0238ca6d6ec471b33f43c56267"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "acfec885172571bc69d5e7a9b0d65ffa6f67dd489ab5f1bbee9989b6ad9b39d2"
+    },
+    {
+      "path": "references/deployment.md",
+      "sha256": "21391ea8770ce1dea527939126058241ab9c2116f15d6776be10ca6d5232fae9"
+    },
+    {
+      "path": "references/encoding-hebrew.md",
+      "sha256": "1921698990845f9b6d38ba375fedb6bb62268a30ca87bc0f3e21fcc1fdcde4d4"
+    },
+    {
+      "path": "references/idempotency.md",
+      "sha256": "26906e5e8bc9d2719173bb88b96c3211aaff681e7e38a28c3f0fa5dd89319626"
+    },
+    {
+      "path": "references/logging.md",
+      "sha256": "12b0daf1dc9baf8e2d5cdffabc731b9829658566b77b2ca182672e259e139cf5"
+    },
+    {
+      "path": "references/priority-api.md",
+      "sha256": "c5c4b5fd4c74a7aaf99dc035a7f598790a77d17451075339fa94c45d54b26b52"
+    },
+    {
+      "path": "references/priority-development.md",
+      "sha256": "ef74276ab5a99bb772102938b9e403acb968c8252dcc59269fa1c3f7f04a7d0f"
+    },
+    {
+      "path": "references/priority-integration-patterns.md",
+      "sha256": "3925fd8b7621219f745e67e62236b455a96e1e9300d4077f928fa361ffe2faa3"
+    },
+    {
+      "path": "references/retries-timeouts.md",
+      "sha256": "b69ef0dbbb105310161c7c34ed983af94689f966db912e2c37145a93b8187d43"
+    },
+    {
+      "path": "scripts/backup_repo.py",
+      "sha256": "1e67ca916e40d6740f3652a1133d5bc26615613331f4c016640af899bb0ae726"
+    },
+    {
+      "path": "scripts/generate_adapters.py",
+      "sha256": "6f184cf5c8491bdef44759cce1d9827ddf5c43fb2dd01571a6de3101bcb2c830"
+    },
+    {
+      "path": "scripts/package_skill.py",
+      "sha256": "5a5f2fe70870d0147f4fbfb681ab705520429a0b0d824590ed04c5c900d20bf9"
+    },
+    {
+      "path": "scripts/regression_test.py",
+      "sha256": "29718b9c59d46ea09d57652c9053896286864ce096f012e81ec9b458e32053e0"
+    },
+    {
+      "path": "scripts/restore_backup.py",
+      "sha256": "5de83a21d279ff9143dbd810a3d32c174856d03872c988e535aa218452a2dcfc"
+    },
+    {
+      "path": "scripts/scan_customer_data.py",
+      "sha256": "a4a0f87acb1eabc0bd963f5e1683131a893d9a67ca5dbf337cbb1fedf944d7b9"
+    },
+    {
+      "path": "scripts/validate_skill.py",
+      "sha256": "0369ec87bb5994472a4b0d69e284030dc604c1a5d9c660d3c21492ca242c194a"
+    },
+    {
+      "path": "src/rdp_ai/__init__.py",
+      "sha256": "3665e52686ab85427c62dc2665fe3d9abcb9110baa0abfb26c7cb59b614cc48a"
+    },
+    {
+      "path": "src/rdp_ai/cli.py",
+      "sha256": "a03d31e3bdf2cc7fdd09eb257fb14eab2ed717d2d4c5ffa1d4719188bdaef646"
+    },
+    {
+      "path": "templates/ADR.md",
+      "sha256": "ce8af2fbfd8efb13c2ba424400eb10bbe927dcfcb29f34c599f5279db307b49e"
+    },
+    {
+      "path": "templates/AI-HANDOFF.md",
+      "sha256": "38108e09270c024af84ee40a2dd2e1e7074866f5545408eddc497c94c669ff6d"
+    },
+    {
+      "path": "templates/DISCOVERY.md",
+      "sha256": "1df4a5fee2bbd585d093db16b3a1157d4469bd5e5f1ac69c1a75f742abf1766b"
+    },
+    {
+      "path": "templates/ISSUE_TEMPLATE.md",
+      "sha256": "e6fefae7791debca3d5c69cb3048f5c0387a16eecdff7f8def75de3eff97c1b3"
+    },
+    {
+      "path": "templates/PLAN.md",
+      "sha256": "a5936dda3aacccb9f1d87ecd776dc2ce086c75ca33a115cb0d386cc090a98fab"
+    },
+    {
+      "path": "templates/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "a1eca33390a251e4823f6ad8e33c5a994b8aea416caebeca20f0d35f15497bdf"
+    },
+    {
+      "path": "templates/SKILL-LEARNING.md",
+      "sha256": "532a33b398e2924b41e907a35c0f43d78941092064b41cbb9fab258792f173f1"
+    }
+  ],
+  "name": "rdp-priority",
+  "schemaVersion": 1,
+  "treeSha256": "0e959102ed58427c31bbb80d220a5645c2dbf48e347a60c13dbbb89917824615",
+  "version": "1.0.0"
+}

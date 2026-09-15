@@ -1,0 +1,3 @@
+# RDP AI Skills source repository
+
+This repository builds the shared employee bundle. Read WORKFLOW.md, docs/IMPLEMENTATION_PLAN.md and relevant tests before changing behavior. Canonical skill content is in skills/. Generate discovery trees only in the distribution. Do not modify vendor/rdp-priority; update it only from an approved immutable upstream version with provenance. Work on branches and PRs; never self-approve a merge or stable release. Keep the runtime Python 3.11+ standard-library-only. Run unit tests, scripts/validate.py, ruff, mypy and bundle build after behavioral changes. Use synthetic data in tests and the pilot.
