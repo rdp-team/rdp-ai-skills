@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Add four Priority ERP API skills covering OData querying, live dictionary discovery, guarded writes with bounded verification, and project tasks with attachments.
 - Add an idempotent, dry-run-first administrator tool for regular-member GitHub invitations.
 - Add a complete Hebrew GitHub/Claude Code onboarding guide and a concise employee email template.
 
